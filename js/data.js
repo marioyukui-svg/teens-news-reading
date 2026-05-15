@@ -567,5 +567,266 @@ const articles = [
         "End with 'I love my pet!'"
       ]
     }
+  },
+
+  // ---- 第三篇文章：五六年级版 ----
+  {
+    id: "my-favorite-season",
+    title: "My Favorite Season",
+    level: "初级",
+    grade: "五年级~六年级",
+    wordCount: 108,
+    tags: ["自然", "季节", "日常"],
+    summary: "一年有四个季节，你最喜欢哪个？我喜欢夏天。可以去海滩，吃冰淇淋，还有很多有趣的事情可以做。",
+    cover: "",
+
+    preReading: [
+      "How many seasons are there in a year?",
+      "What is your favorite season? Why?",
+      "What do you like to do in summer?"
+    ],
+
+    paragraphs: [
+      {
+        id: "p1",
+        sentences: [
+          {
+            id: "p1s1",
+            en: "There are four seasons in a year.",
+            cn: "一年有四个季节。",
+            words: [
+              { word: "season", phonetic: "/ˈsiːzn/", pos: "n.", meaning: "季节", example: "Spring is my favorite season." },
+              { word: "year", phonetic: "/jɪr/", pos: "n.", meaning: "年", example: "There are twelve months in a year." }
+            ],
+            grammar: "There are... 表示「有……」，用于复数名词。单数用 There is。",
+            patterns: [
+              { pattern: "There is / There are", meaning: "有……（存在句型）" }
+            ]
+          },
+          {
+            id: "p1s2",
+            en: "They are spring, summer, autumn and winter.",
+            cn: "它们是春天、夏天、秋天和冬天。",
+            words: [
+              { word: "spring", phonetic: "/sprɪŋ/", pos: "n.", meaning: "春天", example: "Flowers bloom in spring." },
+              { word: "summer", phonetic: "/ˈsʌmər/", pos: "n.", meaning: "夏天", example: "I like summer." },
+              { word: "autumn", phonetic: "/ˈɔːtəm/", pos: "n.", meaning: "秋天", example: "Leaves fall in autumn." },
+              { word: "winter", phonetic: "/ˈwɪntər/", pos: "n.", meaning: "冬天", example: "It snows in winter." }
+            ],
+            grammar: "They are... 表示「它们是……」，用于介绍多个事物。",
+            patterns: []
+          },
+          {
+            id: "p1s3",
+            en: "My favorite season is summer.",
+            cn: "我最喜欢的季节是夏天。",
+            words: [
+              { word: "favorite", phonetic: "/ˈfeɪvərɪt/", pos: "adj.", meaning: "最喜欢的", example: "Blue is my favorite color." }
+            ],
+            grammar: "My favorite... is... 表示「我最喜欢的……是……」",
+            patterns: [
+              { pattern: "My favorite... is...", meaning: "我最喜欢的……是……" }
+            ]
+          }
+        ]
+      },
+      {
+        id: "p2",
+        sentences: [
+          {
+            id: "p2s1",
+            en: "In summer, the weather is hot and sunny.",
+            cn: "夏天天气又热又晴朗。",
+            words: [
+              { word: "weather", phonetic: "/ˈweðər/", pos: "n.", meaning: "天气", example: "The weather is nice today." },
+              { word: "hot", phonetic: "/hɒt/", pos: "adj.", meaning: "热的", example: "Summer is hot." },
+              { word: "sunny", phonetic: "/ˈsʌni/", pos: "adj.", meaning: "晴朗的", example: "It is a sunny day." }
+            ],
+            grammar: "The weather is + 形容词，描述天气。多个形容词用 and 连接。",
+            patterns: [
+              { pattern: "The weather is + adj.", meaning: "天气是……的" }
+            ]
+          },
+          {
+            id: "p2s2",
+            en: "I can go to the beach with my family.",
+            cn: "我可以和家人去海滩。",
+            words: [
+              { word: "beach", phonetic: "/biːtʃ/", pos: "n.", meaning: "海滩", example: "Let's go to the beach!" },
+              { word: "family", phonetic: "/ˈfæməli/", pos: "n.", meaning: "家人；家庭", example: "I love my family." }
+            ],
+            grammar: "go to the + 地点，表示「去某个地方」。with my family 表示「和我的家人一起」。",
+            patterns: [
+              { pattern: "go to the + 地点", meaning: "去某个地方" },
+              { pattern: "with + 某人", meaning: "和某人一起" }
+            ]
+          },
+          {
+            id: "p2s3",
+            en: "I like to swim in the sea and play in the sand.",
+            cn: "我喜欢在海里游泳，在沙滩上玩。",
+            words: [
+              { word: "swim", phonetic: "/swɪm/", pos: "v.", meaning: "游泳", example: "Fish can swim." },
+              { word: "sea", phonetic: "/siː/", pos: "n.", meaning: "大海", example: "The sea is blue." },
+              { word: "sand", phonetic: "/sænd/", pos: "n.", meaning: "沙子", example: "The sand is warm." }
+            ],
+            grammar: "like to do sth. 表示「喜欢做某事」。in the sea 和 in the sand 都是介词短语表示地点。",
+            patterns: [
+                            { pattern: "in the + 地点", meaning: "在某个地方" }
+            ]
+          },
+          {
+            id: "p2s4",
+            en: "I also like to eat ice cream on the beach.",
+            cn: "我也喜欢在海滩上吃冰淇淋。",
+            words: [
+              { word: "ice cream", phonetic: "/ˌaɪs ˈkriːm/", pos: "n.", meaning: "冰淇淋", example: "I want some ice cream." }
+            ],
+            grammar: "on the beach 表示「在海滩上」。also 放在动词前面，表示「也」。",
+            patterns: []
+          }
+        ]
+      },
+      {
+        id: "p3",
+        sentences: [
+          {
+            id: "p3s1",
+            en: "Summer is a wonderful season.",
+            cn: "夏天是一个美妙的季节。",
+            words: [
+              { word: "wonderful", phonetic: "/ˈwʌndərfl/", pos: "adj.", meaning: "美妙的；精彩的", example: "What a wonderful day!" }
+            ],
+            grammar: "a + 形容词 + 名词，表示「一个……的……」。冠词 a 放在形容词前面。",
+            patterns: [
+              { pattern: "a/an + adj. + n.", meaning: "一个……的……" }
+            ]
+          },
+          {
+            id: "p3s2",
+            en: "I can do many fun things in summer.",
+            cn: "夏天我可以做很多有趣的事情。",
+            words: [
+              { word: "fun", phonetic: "/fʌn/", pos: "adj.", meaning: "有趣的", example: "The game is fun." },
+              { word: "thing", phonetic: "/θɪŋ/", pos: "n.", meaning: "事情；东西", example: "I have many things to do." }
+            ],
+            grammar: "many + 可数名词复数，表示「很多……」。fun 作形容词表示「有趣的」。",
+            patterns: [
+              { pattern: "many + 复数名词", meaning: "很多……" }
+            ]
+          },
+          {
+            id: "p3s3",
+            en: "What is your favorite season?",
+            cn: "你最喜欢的季节是什么？",
+            words: [],
+            grammar: "这是一个特殊疑问句。What 放在句首提问「什么」。",
+            patterns: [
+              { pattern: "What is your favorite...?", meaning: "你最喜欢的……是什么？" }
+            ]
+          },
+          {
+            id: "p3s4",
+            en: "Tell me and I can draw a picture for you!",
+            cn: "告诉我，我可以为你画一幅画！",
+            words: [
+              { word: "draw", phonetic: "/drɔː/", pos: "v.", meaning: "画", example: "I like to draw cats." },
+              { word: "picture", phonetic: "/ˈpɪktʃər/", pos: "n.", meaning: "图画；照片", example: "This is a picture of my family." }
+            ],
+            grammar: "Tell me and... 是祈使句 + and 连接的并列句。for you 表示「为你」。",
+            patterns: [
+              { pattern: "do sth. for + 某人", meaning: "为某人做某事" }
+            ]
+          }
+        ]
+      }
+    ],
+
+    keyWords: [
+      { word: "season", phonetic: "/ˈsiːzn/", pos: "n.", meaning: "季节", level: "中考" },
+      { word: "spring", phonetic: "/sprɪŋ/", pos: "n.", meaning: "春天", level: "中考" },
+      { word: "summer", phonetic: "/ˈsʌmər/", pos: "n.", meaning: "夏天", level: "中考" },
+      { word: "autumn", phonetic: "/ˈɔːtəm/", pos: "n.", meaning: "秋天", level: "中考" },
+      { word: "winter", phonetic: "/ˈwɪntər/", pos: "n.", meaning: "冬天", level: "中考" },
+      { word: "weather", phonetic: "/ˈweðər/", pos: "n.", meaning: "天气", level: "中考" },
+      { word: "beach", phonetic: "/biːtʃ/", pos: "n.", meaning: "海滩", level: "中考" },
+      { word: "swim", phonetic: "/swɪm/", pos: "v.", meaning: "游泳", level: "中考" },
+      { word: "wonderful", phonetic: "/ˈwʌndərfl/", pos: "adj.", meaning: "美妙的", level: "拓展" },
+      { word: "draw", phonetic: "/drɔː/", pos: "v.", meaning: "画", level: "中考" },
+      { word: "picture", phonetic: "/ˈpɪktʃər/", pos: "n.", meaning: "图画", level: "中考" }
+    ],
+
+    keyPatterns: [
+      { pattern: "There is / There are", meaning: "有……（存在句型）", example: "There are seven days in a week." },
+      { pattern: "My favorite... is...", meaning: "我最喜欢的……是……", example: "My favorite food is pizza." },
+      { pattern: "go to the + 地点", meaning: "去某个地方", example: "I go to the park on Sunday." },
+      { pattern: "What is your favorite...?", meaning: "你最喜欢的……是什么？", example: "What is your favorite color?" }
+    ],
+
+    grammarFocus: [
+      {
+        title: "There is / There are 句型",
+        explanation: "There is / There are 表示「某地有某物」。There is 后跟单数名词，There are 后跟复数名词。",
+        examples: [
+          "There is a book on the desk. (桌上有一本书)",
+          "There are four seasons in a year. (一年有四个季节)"
+        ]
+      },
+      {
+        title: "情态动词 can",
+        explanation: "can 表示「能；可以」，后面跟动词原形。否定式是 can't（不能）。",
+        examples: [
+          "I can swim. (我能游泳)",
+          "I can't fly. (我不会飞)"
+        ]
+      },
+      {
+        title: "介词 in / on / with",
+        explanation: "in 表示「在……里」，on 表示「在……上」，with 表示「和……一起」。",
+        examples: [
+          "swim in the sea (在海里游泳)",
+          "on the beach (在海滩上)",
+          "with my family (和我的家人一起)"
+        ]
+      }
+    ],
+
+    criticalThinking: [
+      {
+        type: "比较与分析",
+        question: "四个季节各有什么特点？请用表格或列表对比每个季节的天气、颜色和活动。",
+        hint: "想一想每个季节天气怎么样，大自然是什么颜色的，人们常做什么活动。"
+      },
+      {
+        type: "推理与判断",
+        question: "为什么作者最喜欢夏天？从文章里找出至少三个理由。你觉得这些理由有说服力吗？",
+        hint: "作者提到了天气、活动、食物等方面。你觉得还有哪些夏天的好处文章没有提到？"
+      },
+      {
+        type: "联系生活",
+        question: "如果你要写一篇关于你最喜欢的季节的文章，你会写什么？请列出三个要点。",
+        hint: "先选定季节，然后想想：天气怎么样？你穿什么衣服？可以做什么特别的活动？"
+      }
+    ],
+
+    discussionQuestions: [
+      "How many seasons are in a year?",
+      "What is the weather like in summer?",
+      "What does the writer like to do in summer?",
+      "Which season do you like best? Why?",
+      "Do you like going to the beach? What do you do there?"
+    ],
+
+    writingTask: {
+      title: "Write About Your Favorite Season",
+      prompt: "Write a short paragraph (40-60 words) about your favorite season. Include: the name of the season, the weather, what you like to do, and why you like it.",
+      tips: [
+        "Start with 'My favorite season is...'.",
+        "Describe the weather (hot, cold, warm, cool...).",
+        "Say what you can do in this season.",
+        "Use 'I like to...' or 'I can...'.",
+        "End with 'I love...!'."
+      ]
+    }
   }
 ];
