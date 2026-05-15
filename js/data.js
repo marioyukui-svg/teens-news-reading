@@ -294,5 +294,278 @@ const articles = [
         "End with a strong conclusion."
       ]
     }
+  },
+
+  // ---- 第二篇文章：小学版 ----
+  {
+    id: "my-pet-cat",
+    title: "My Pet Cat",
+    level: "初级",
+    grade: "三年级~四年级",
+    wordCount: 82,
+    tags: ["动物", "家庭", "日常"],
+    summary: "我有一个宠物猫，它叫咪咪。它很可爱，喜欢玩毛线球。它是我最好的朋友。",
+    cover: "",
+
+    preReading: [
+      "Do you have a pet? What is it?",
+      "What color is your pet?",
+      "What does your pet like to do?"
+    ],
+
+    paragraphs: [
+      {
+        id: "p1",
+        sentences: [
+          {
+            id: "p1s1",
+            en: "I have a pet cat.",
+            cn: "我有一只宠物猫。",
+            words: [
+              { word: "pet", phonetic: "/pet/", pos: "n.", meaning: "宠物", example: "I have a pet dog." },
+              { word: "cat", phonetic: "/kæt/", pos: "n.", meaning: "猫", example: "The cat is white." }
+            ],
+            grammar: "I have... 表示「我有……」，是英语中最常用的句型之一。",
+            patterns: [
+              { pattern: "I have a...", meaning: "我有一个……" }
+            ]
+          },
+          {
+            id: "p1s2",
+            en: "Her name is Mimi.",
+            cn: "她的名字叫咪咪。",
+            words: [
+              { word: "name", phonetic: "/neɪm/", pos: "n.", meaning: "名字", example: "My name is Tom." }
+            ],
+            grammar: "Her name is... 表示「她的名字是……」, her 是「她的」的意思。",
+            patterns: [
+              { pattern: "His/Her name is...", meaning: "他/她的名字是……" }
+            ]
+          },
+          {
+            id: "p1s3",
+            en: "She is white and black.",
+            cn: "她是白色和黑色的。",
+            words: [
+              { word: "white", phonetic: "/waɪt/", pos: "adj.", meaning: "白色的", example: "Snow is white." },
+              { word: "black", phonetic: "/blæk/", pos: "adj.", meaning: "黑色的", example: "I have a black bag." }
+            ],
+            grammar: "She is + 颜色，描述某人或某物的颜色。",
+            patterns: [
+              { pattern: "She/He is + 颜色", meaning: "她/他是……颜色的" }
+            ]
+          },
+          {
+            id: "p1s4",
+            en: "She is two years old.",
+            cn: "她两岁了。",
+            words: [
+              { word: "year", phonetic: "/jɪr/", pos: "n.", meaning: "年；岁", example: "I am eight years old." },
+              { word: "old", phonetic: "/oʊld/", pos: "adj.", meaning: "老的；……岁", example: "My grandpa is old." }
+            ],
+            grammar: "数字 + year(s) old 表示年龄。",
+            patterns: [
+              { pattern: "... years old", meaning: "……岁" }
+            ]
+          }
+        ]
+      },
+      {
+        id: "p2",
+        sentences: [
+          {
+            id: "p2s1",
+            en: "Mimi likes to play with yarn balls.",
+            cn: "咪咪喜欢玩毛线球。",
+            words: [
+              { word: "play", phonetic: "/pleɪ/", pos: "v.", meaning: "玩；玩耍", example: "The kids play in the park." },
+              { word: "yarn", phonetic: "/jɑːrn/", pos: "n.", meaning: "毛线", example: "My grandma has red yarn." }
+            ],
+            grammar: "like(s) to do sth. 表示「喜欢做某事」。当主语是第三人称单数时，like 要加 s。",
+            patterns: [
+              { pattern: "like(s) to do sth.", meaning: "喜欢做某事" }
+            ]
+          },
+          {
+            id: "p2s2",
+            en: "She runs after the ball.",
+            cn: "她追着球跑。",
+            words: [
+              { word: "run", phonetic: "/rʌn/", pos: "v.", meaning: "跑", example: "I run every morning." },
+              { word: "after", phonetic: "/ˈæftər/", pos: "prep.", meaning: "在……之后；追赶", example: "The dog runs after me." }
+            ],
+            grammar: "run(s) after 表示「追赶」。主语是 she，所以 run 要加 s。",
+            patterns: [
+              { pattern: "run(s) after...", meaning: "追赶……" }
+            ]
+          },
+          {
+            id: "p2s3",
+            en: "She also likes to sleep on the sofa.",
+            cn: "她也喜欢在沙发上睡觉。",
+            words: [
+              { word: "sleep", phonetic: "/sliːp/", pos: "v.", meaning: "睡觉", example: "I sleep at nine o'clock." },
+              { word: "sofa", phonetic: "/ˈsoʊfə/", pos: "n.", meaning: "沙发", example: "Dad is on the sofa." }
+            ],
+            grammar: "also 表示「也」，放在动词前面。on the sofa 表示「在沙发上」。",
+            patterns: [
+              { pattern: "on the + 家具", meaning: "在家具上" }
+            ]
+          },
+          {
+            id: "p2s4",
+            en: "She can jump very high!",
+            cn: "她能跳得很高！",
+            words: [
+              { word: "jump", phonetic: "/dʒʌmp/", pos: "v.", meaning: "跳", example: "The rabbit can jump." },
+              { word: "high", phonetic: "/haɪ/", pos: "adv.", meaning: "高地", example: "The ball is very high." }
+            ],
+            grammar: "can + 动词原形，表示「能做某事」。can 后面永远用动词原形。",
+            patterns: [
+              { pattern: "can + 动词原形", meaning: "能做某事" }
+            ]
+          }
+        ]
+      },
+      {
+        id: "p3",
+        sentences: [
+          {
+            id: "p3s1",
+            en: "Mimi is my best friend.",
+            cn: "咪咪是我最好的朋友。",
+            words: [
+              { word: "best", phonetic: "/best/", pos: "adj.", meaning: "最好的", example: "This is my best toy." },
+              { word: "friend", phonetic: "/frend/", pos: "n.", meaning: "朋友", example: "Tom is my friend." }
+            ],
+            grammar: "my best friend 表示「我最好的朋友」。best 是 good 的最高级形式。",
+            patterns: [
+              { pattern: "my best...", meaning: "我最好的……" }
+            ]
+          },
+          {
+            id: "p3s2",
+            en: "I love her very much.",
+            cn: "我非常爱她。",
+            words: [
+              { word: "love", phonetic: "/lʌv/", pos: "v.", meaning: "爱；喜欢", example: "I love my mom." }
+            ],
+            grammar: "very much 表示「非常」，放在动词后面加强语气。",
+            patterns: [
+              { pattern: "love... very much", meaning: "非常爱……" }
+            ]
+          },
+          {
+            id: "p3s3",
+            en: "Do you have a pet?",
+            cn: "你有一只宠物吗？",
+            words: [],
+            grammar: "这是一个一般疑问句。Do 放在句首帮助提问，后面的动词用原形。",
+            patterns: [
+              { pattern: "Do you have...?", meaning: "你有……吗？" }
+            ]
+          },
+          {
+            id: "p3s4",
+            en: "Tell me about your pet!",
+            cn: "告诉我你的宠物吧！",
+            words: [
+              { word: "tell", phonetic: "/tel/", pos: "v.", meaning: "告诉", example: "Tell me a story." }
+            ],
+            grammar: "Tell me about... 表示「告诉我关于……」。这是一个祈使句。",
+            patterns: [
+              { pattern: "Tell me about...", meaning: "告诉我关于……" }
+            ]
+          }
+        ]
+      }
+    ],
+
+    keyWords: [
+      { word: "pet", phonetic: "/pet/", pos: "n.", meaning: "宠物", level: "中考" },
+      { word: "cat", phonetic: "/kæt/", pos: "n.", meaning: "猫", level: "中考" },
+      { word: "name", phonetic: "/neɪm/", pos: "n.", meaning: "名字", level: "中考" },
+      { word: "white", phonetic: "/waɪt/", pos: "adj.", meaning: "白色的", level: "中考" },
+      { word: "play", phonetic: "/pleɪ/", pos: "v.", meaning: "玩", level: "中考" },
+      { word: "sleep", phonetic: "/sliːp/", pos: "v.", meaning: "睡觉", level: "中考" },
+      { word: "jump", phonetic: "/dʒʌmp/", pos: "v.", meaning: "跳", level: "中考" },
+      { word: "friend", phonetic: "/frend/", pos: "n.", meaning: "朋友", level: "中考" },
+      { word: "love", phonetic: "/lʌv/", pos: "v.", meaning: "爱；喜欢", level: "中考" },
+      { word: "tell", phonetic: "/tel/", pos: "v.", meaning: "告诉", level: "中考" }
+    ],
+
+    keyPatterns: [
+      { pattern: "I have a...", meaning: "我有一个……", example: "I have a new book." },
+      { pattern: "She/He is + 颜色", meaning: "她/他是……颜色的", example: "She is brown." },
+      { pattern: "... years old", meaning: "……岁", example: "I am nine years old." },
+      { pattern: "like(s) to do sth.", meaning: "喜欢做某事", example: "She likes to read books." },
+      { pattern: "can + 动词原形", meaning: "能做某事", example: "I can swim." },
+      { pattern: "Do you have...?", meaning: "你有……吗？", example: "Do you have a pencil?" }
+    ],
+
+    grammarFocus: [
+      {
+        title: "第三人称单数 + s",
+        explanation: "当主语是 he / she / it（第三人称单数）时，动词后面要加 s 或 es。比如 like → likes, run → runs。",
+        examples: [
+          "She likes to play. (她喜欢玩)",
+          "The cat runs fast. (猫跑得快)"
+        ]
+      },
+      {
+        title: "can + 动词原形",
+        explanation: "can 表示「能；可以」，后面永远跟动词原形，不需要加 s。否定形式是 can't。",
+        examples: [
+          "I can jump. (我能跳)",
+          "She can't fly. (她不会飞)"
+        ]
+      },
+      {
+        title: "形容词性物主代词 my / her / his",
+        explanation: "my 表示「我的」，her 表示「她的」，his 表示「他的」。它们后面要跟名词。",
+        examples: [
+          "My cat is cute. (我的猫很可爱)",
+          "Her name is Mimi. (她的名字叫咪咪)"
+        ]
+      }
+    ],
+
+    criticalThinking: [
+      {
+        type: "观察与描述",
+        question: "文章里描述的咪咪是什么样子的？它喜欢做什么？请用你的话说一说。",
+        hint: "它的颜色、年龄、喜欢的活动——从文章里找出这些信息，然后用自己的话组织起来。"
+      },
+      {
+        type: "联系生活",
+        question: "你觉得养宠物需要做什么事情？比如每天要喂它、带它散步吗？",
+        hint: "想想照顾一个小动物需要做哪些事。如果你没有宠物，可以想想你见过的别人是怎么照顾宠物的。"
+      },
+      {
+        type: "表达观点",
+        question: "你更喜欢猫还是狗？为什么？请给出两个理由。",
+        hint: "想一想每种动物的特点。猫安静、爱干净；狗活泼、忠诚。你喜欢哪种性格的宠物？"
+      }
+    ],
+
+    discussionQuestions: [
+      "What color is Mimi?",
+      "How old is Mimi?",
+      "What does Mimi like to play with?",
+      "Do you have a pet? What is its name?",
+      "What is your favorite animal? Why?"
+    ],
+
+    writingTask: {
+      title: "Write About Your Pet",
+      prompt: "Write a short paragraph (30-50 words) about your pet or a pet you want to have. Include: its name, color, age, and what it likes to do.",
+      tips: [
+        "Start with 'I have a...' or 'I want a...'.",
+        "Say its name and color.",
+        "Say how old it is.",
+        "Say what it likes to do.",
+        "End with 'I love my pet!'"
+      ]
+    }
   }
 ];
